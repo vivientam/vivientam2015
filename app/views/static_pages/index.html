@@ -22,23 +22,35 @@
         <% end %>
       </h2>
       <h2 class="sustain">
-      <%= image_tag("dot_Sustain.jpg", :alt => "Sustainability") %>Sustainability
+        <%= link_to sustainabilities_path do%>
+        <%= image_tag("dot_Sustain.jpg", :alt => "Sustainability") %>
+        <p class="subjects">Sustainability</p>
+        <% end %>
       </h2>
     </div>  
 
     <div>
       <h2 class="services">
-      <%= image_tag("dot_Services.jpg", :alt => "Services") %>Services
+        <%= link_to services_path do%>
+        <%= image_tag("dot_Services.jpg", :alt => "Services") %>
+        <p class="subjects">Services</p>
+        <% end %>
       </h2>
     </div>
 
     <div>
       <h2 class="Psy">
-      <%= image_tag("dot_Psy.jpg", :alt => "Psychology") %>Psychology
+        <%= link_to psychologies_path do%>
+        <%= image_tag("dot_Psy.jpg", :alt => "Psychology") %>
+        <p class="subjects">Psychology</p>
+        <% end %>
       </h2>
 
       <h2 class="scientist">
-      <%= image_tag("dot_Scientist.jpg", :alt => "Scientist") %>Scientist
+        <%= link_to scientists_path do%>
+        <%= image_tag("dot_Scientist.jpg", :alt => "Scientist") %>
+        <p class="subjects">Scientist</p>
+        <% end %>
       </h2>
     </div>
 

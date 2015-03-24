@@ -9,6 +9,14 @@ Rails.application.routes.draw do
   
   resources :arts
   
+  resources :sustainabilities
+  
+  resources :services
+  
+  resources :psychologies
+  
+  resources :scientists
+  
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
