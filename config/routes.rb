@@ -7,6 +7,8 @@ Rails.application.routes.draw do
 
   resources :designs
   
+  resources :arts
+  
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

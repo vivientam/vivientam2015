@@ -16,8 +16,10 @@
 
     <div>
       <h2 class="art">
-      <%= image_tag("dot_art.jpg", :alt => "Art") %>
-      Art
+        <%= link_to arts_path do%>
+        <%= image_tag("dot_art.jpg", :alt => "Art") %>
+        <p class="subjects">Art</p>
+        <% end %>
       </h2>
       <h2 class="sustain">
       <%= image_tag("dot_Sustain.jpg", :alt => "Sustainability") %>Sustainability
