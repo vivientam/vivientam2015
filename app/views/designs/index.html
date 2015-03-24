@@ -1,5 +1,24 @@
-<div class="design">
-  <h2>
-  <%= image_tag("dot_Design.jpg", :alt => "Design") %>Design
-  </h2>
-</div>
+<div class="background">
+  <div class="subjects">
+    <h2 class="design">
+    <%= image_tag("dot_Design.jpg", :alt => "Design") %>Design
+    </h2>
+  </div>
+
+  <div class="projects">
+    <%= link_to "https://diabetescured.herokuapp.com/" do %>
+      <span class="projects">Diabetes Curred</span>
+    <% end %>  
+    <%= image_tag("diabetescurred.png", :alt=>"diabetes", :class=>"project-pic") %>
+    
+  </div>
+
+  <div class="projects">
+    <%= link_to "https://colorfulblind.herokuapp.com/" do %>
+      <span class="projects">ColorfulBlind</span>
+    <% end %>
+    <%= image_tag("colorfulblind.png", :alt => "colorfulblind", :class=>"project-pic") %>
+    
+  </div>
+
+<div>

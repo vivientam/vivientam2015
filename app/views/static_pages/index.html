@@ -8,8 +8,9 @@
     
     <div class="design">
       <h2>
-      <%= image_tag("dot_Design.jpg", :alt => "Design") %>Design
-      <%link_to "design"%>
+        <%= link_to designs_path do %>
+          <%= image_tag("dot_Design.jpg", :alt => "Design") %><p class="subjects">Design</p>
+        <% end %>
       </h2>
     </div>
 
